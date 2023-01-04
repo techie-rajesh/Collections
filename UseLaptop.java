@@ -107,6 +107,8 @@ public class UseLaptop {
 		System.out.println("Maximum price: "+max_Price.getPrice());
 		Laptop min_Price=laptops.stream().min((x,y)->x.getPrice()>y.getPrice()?1:-1).get();
 		System.out.println("Minimum Price: "+min_Price.getPrice());
+
+		System.out.println(" my \" 2nd \" day work");
 		
 	}
 }
