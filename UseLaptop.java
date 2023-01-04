@@ -108,6 +108,7 @@ public class UseLaptop {
 		Laptop min_Price=laptops.stream().min((x,y)->x.getPrice()>y.getPrice()?1:-1).get();
 		System.out.println("Minimum Price: "+min_Price.getPrice());
 		
+		// reduce the code Rajesh
 	}
 }
 
