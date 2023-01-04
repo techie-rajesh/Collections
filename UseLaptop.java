@@ -97,17 +97,10 @@ public class UseLaptop {
 		laptops.add(new Laptop("Asus", 54000, true, false, "Black", 64, 2.0f,9));
 		laptops.add(new Laptop("Mi", 74000, true, true, "Blue", 12, 3.5f,10));
 		
-		//Map<Integer, Laptop> cvt1=laptops.stream().collect(Collectors.toMap(x->x.getSerialNo(), y->y));
-		//cvt1.forEach((x,y)->System.out.println(x+" "+y));
-		//Set<Laptop> cvt2=laptops.stream().collect(Collectors.toSet());
-		//cvt2.forEach(x->System.out.println(x));
-		//List<Laptop> h_Sal=laptops.stream().filter(x->x.getPrice()>50000).distinct().collect(Collectors.toList());
-		//h_Sal.forEach(x->System.out.println(x));
-		Laptop max_Price=laptops.stream().max((x,y)->x.getPrice()>y.getPrice()?1:-1).get();
-		System.out.println("Maximum price: "+max_Price.getPrice());
-		Laptop min_Price=laptops.stream().min((x,y)->x.getPrice()>y.getPrice()?1:-1).get();
-		System.out.println("Minimum Price: "+min_Price.getPrice());
+		
 
+		System.out.println(" my \" 2nd \" day work");
+		System.out.println(" my \" 2nd \" day work");
 		System.out.println(" my \" 2nd \" day work");
 		
 		// reduce the code Rajesh
