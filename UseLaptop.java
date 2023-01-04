@@ -110,6 +110,7 @@ public class UseLaptop {
 
 		System.out.println(" my \" 2nd \" day work");
 		
+		// reduce the code Rajesh
 	}
 }
 
